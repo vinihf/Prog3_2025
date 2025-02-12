@@ -9,7 +9,11 @@
 html,body{
     height: 100%;
     width:100%;
-    background-color:plum;
+}
+
+#container{
+    width:800px;
+    margin: 0 auto;
 }
 
 figure{
@@ -24,6 +28,16 @@ img{
 ol,ul{
     padding-left: 20px;
     margin: 12px;
+}
+
+/*Exemplo de pseudo-classe*/
+li:first-child{
+    background-color: yellow;
+}
+
+/*Exemplo de pseudo-elemento*/
+li::after{
+    content:';';
 }
 
 h1,h3{
