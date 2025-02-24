@@ -1,9 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-    /*
+    
 
-    Por padrão, a propriedade box-sizing é definida como content-box. 
+    /*Por padrão, a propriedade box-sizing é definida como content-box. 
     Neste caso, o tamanho de um elemento é calculado pela soma da sua
     widht+height+padding+conteúdo.
 
@@ -16,7 +16,7 @@
 }
 
 
-.box{
+div{
     width: 300px;
     height: 300px;
     background-color: aquamarine;
@@ -24,6 +24,5 @@
 }
 
 h1{
-    padding: 10px;
     border: 1px solid black;
 }
