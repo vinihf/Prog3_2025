@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*
+
+    Por padrão, a propriedade box-sizing é definida como content-box. 
+    Neste caso, o tamanho de um elemento é calculado pela soma da sua
+    widht+height+padding+conteúdo.
+
+    Quando ajustamos esta propriedade para border-box, o tamanho é definido
+    pela soma de sua widht+height, e os demais valores devem se adaptar
+    dentro deste tamanho total.
+
+    */
+    box-sizing: border-box;
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+h1{
+    padding: 10px;
+    border: 1px solid black;
+}
+
