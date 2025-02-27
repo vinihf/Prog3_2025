@@ -47,3 +47,27 @@ h1,h3{
 p{
     margin: 12px;
 }
+
+a{
+    margin: 12px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}
+
+.video:hover{
+    border:1px solid black;
+    color: black;
+    background-color: white;
+}
+
+table{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
