@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="formulario">
+        <div class="grupo">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div class="grupo">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade" min="1" max="100" required>
+        </div>
+        <div class="grupo">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+        <div class="grupo">
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso">
+                <option value="info">Informática</option>
+                <option value="adm">Administração</option>
+                <option value="quim">Química</option>
+                <option value="mamb">Meio Ambiente</option>
+            </select>
+        </div>
+        <div class="grupo">
+            <label>Turno:</label>
+            <input type="radio" name="turno" value="manhã">Manhã
+            <input type="radio" name="turno" value="Tarde">Tarde
+        </div>        
+        <div class="grupo">
+            <label>Como você vem para o IF?</label>
+            <input type="checkbox" name="proprio">Veículo próprio
+            <input type="checkbox" name="publico">Transport Público
+        </div>
+        <div class="grupo centralizar">
+            <input type="submit" value="Gerar" name="Gerar">
+        </div>
+    </form>
+</body>
+</html>

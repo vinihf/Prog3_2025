@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.grupo{
+    margin: 5px;
+    padding: 15px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+input[type='text'],input[type='number'],input[type='password']{
+    font-size: 13pt;
+    padding: 2px;
+}
+
+input[type='submit']{
+    padding: 5px;
+    background-color: white;
+}
