@@ -57,13 +57,30 @@ console.log(hoje);
 
 /* Vamos adicionar um evento ao nosso Formulário */
 document.getElementById("formulario").addEventListener("submit", function(event) {
+    // Prevenir o comportamento padrão
     event.preventDefault();
+
+    //Objeto FormData
     const formData = new FormData(this);
+    
+    //Cria um objeto das entradas vindas do formulário
     let dados = Object.fromEntries(formData.entries());
+
+    //Imprimindo no console e convertendo para Number
+    console.log(`${dados['idade']} é do tipo ${typeof(parseInt(dados['idade']))}`);
+
+
+    //Como verificar se um checkbox foi marcado?
     if (formData.has("proprio")) {
         console.log("O usuário marcou alguma opção de transporte proprio.");
     }
     if (formData.has("publico")) {
         console.log("O usuário marcou alguma opção de transporte público.");
     } 
+
+    //Modificando um elemento via Javascript
+    const Texto = document.getElementById("Texto");
+    Texto.textContent = dados['nome'];
+    Texto.style.backgroundColor = 'red';
+    Texto.style.color = 'white';
 });
