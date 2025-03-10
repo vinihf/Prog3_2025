@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    background-color: #DBC7BE;
+    height: 100vh;
+    widht: 100vw;
+    display: grid;
+    place-items: center;
+  }
+  
+  .box{
+    width: 400px;
+    height: 400px;
+    background-color: #EF959C;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  }
+  
+  .item{
+    background-color: white;
+    margin: 5px;
+  }

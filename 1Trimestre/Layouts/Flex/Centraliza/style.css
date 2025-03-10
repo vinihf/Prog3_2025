@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  border-box: box-sizing;
+}
+
+section{
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.group{
+  display: flex;
+  margin: 10px;
+}
+
+label{
+  flex: 1;
+}
+
+.campo{
+  flex: 4;
+}
+
+input[type=submit]{
+  flex: 1;
+  background-color: white;
+  padding: 4px;
+}
