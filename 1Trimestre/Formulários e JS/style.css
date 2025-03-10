@@ -34,3 +34,11 @@ input[type='submit']{
     padding: 5px;
     background-color: white;
 }
+
+input[type='checkbox'],input[type='radio']{
+    margin: 5px;
+}
+
+fieldset{
+    padding: 10px;
+}
