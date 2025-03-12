@@ -99,8 +99,19 @@ document.getElementById("formulario").addEventListener("submit", function(event)
     } 
 
     //Modificando um elemento via Javascript
-    const Texto = document.getElementById("Texto");
-    Texto.textContent = dados['nome'];
+    const texto = document.getElementById("Texto");
+
+    //texto.textContent = `${dados['nome']} tem ${dados['idade']} anos.`;
+    
+    if(formData.has("publico") &&  formData.has("privado")){
+        texto.textContent = `${dados['nome']} vem das duas formas`;
+    }else if (formData.has("publico")){
+        texto.textContent = `${dados['nome']} vem de transporte público`;
+    }else if (formData.has("privado")){
+        texto.textContent = `${dados['nome']} vem de transporte próprio`;
+    }else{
+        texto.textContent = `${dados['nome']} não vem`;
+    }
     Texto.style.backgroundColor = 'red';
     Texto.style.color = 'white';
 });
