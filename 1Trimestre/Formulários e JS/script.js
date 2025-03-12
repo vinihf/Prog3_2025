@@ -29,12 +29,32 @@ let verdadeiro  = true;
 let falso = false;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* undefined */
 let valorNovo;
 console.log(valorNovo);
 
 /* Null */
 let valorNulo = null;
+
+
+
+
+
+
+
+
 
 /* Entre os tipos objetos, citam-se os objetos, arrays e date */
 
