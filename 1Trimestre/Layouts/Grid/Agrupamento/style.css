@@ -7,7 +7,7 @@
   .container{
     background-color: #DBC7BE;
     height: 100vh;
-    widht: 100vw;
+    width: 100vw;
     display: grid;
     place-items: center;
   }
@@ -18,10 +18,11 @@
     background-color: #EF959C;
     border-radius: 10px;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 2fr 2fr 1fr;
   }
   
   .item{
     background-color: white;
     margin: 5px;
+
   }
