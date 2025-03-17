@@ -9,7 +9,13 @@
   height: 100vh;
   width: 100vw;
   display: grid;
+  
+  /*Centraliza*/
   place-items: center;
+
+  /*justify-content: center;
+  align-items: center;*/
+
 }
 
 .box{
