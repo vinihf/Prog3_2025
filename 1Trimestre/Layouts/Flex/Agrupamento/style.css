@@ -10,16 +10,17 @@ section{
   width: 100vw;
   background-color: gray;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   /* Em coluna
   flex-direction:column;
   */
+  flex-direction:column;
 }
 
 .item{
-  flex: 1;
-  height: 50px;
+  width:100px;
+  flex:1;
   margin: 5px;
   /* Para tamanho fixo
   width: 300px;
