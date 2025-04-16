@@ -33,6 +33,11 @@ let preços = [11.20,35.50,44.40]
 let com_desconto = preços.map((preço)=> preço*0.9)
 console.log(com_desconto);
 
+
+
+
+
+
 //Aplica uma função ao conjunto tudo e retorna
 //apenas um resultado
 let total = preços.reduce((total,elemento)=>total+elemento,0)
