@@ -10,7 +10,7 @@ section{
   width: 100vw;
   background-color: gray;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   /* Em coluna
   flex-direction:column;
@@ -18,8 +18,8 @@ section{
 }
 
 .item{
-  flex: 1;
-  height: 50px;
+  height:50px;
+  flex:1;
   margin: 5px;
   /* Para tamanho fixo
   width: 300px;

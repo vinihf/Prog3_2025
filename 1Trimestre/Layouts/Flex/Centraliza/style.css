@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  border-box: box-sizing;
+  box-sizing: border-box;
 }
 
 section{
@@ -30,11 +30,17 @@ label{
 }
 
 .campo{
-  flex: 4;
+  flex: 3;
+}
+
+.group_submit{
+  display:flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 input[type=submit]{
-  flex: 1;
+  width: 90px;
   background-color: white;
   padding: 4px;
 }
