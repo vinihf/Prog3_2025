@@ -19,5 +19,5 @@ formulario.addEventListener("submit",function(event){
 const apagar = document.getElementById("apagar")
 apagar.addEventListener("click",function(){
     localStorage.removeItem("nome")
-    window.location.reload() 
+    window.location.reload(); 
 })
