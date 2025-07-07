@@ -1,5 +1,5 @@
 {
-    "name": "usuario/heranca_composer",
+    "name": "usuario/heranca_composer2",
     "autoload": {
         "psr-4": {
             "": "src/"
