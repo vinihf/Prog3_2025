@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'usuario/heranca_composer2',
+        'name' => 'usuario/heranca2',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4f4e6004fa2d9736337b3a735d65be26ce622530',
+        'reference' => 'b3246c8ccd6f6e547830c1a9576f4673546cdb6c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'usuario/heranca_composer2' => array(
+        'usuario/heranca2' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4f4e6004fa2d9736337b3a735d65be26ce622530',
+            'reference' => 'b3246c8ccd6f6e547830c1a9576f4673546cdb6c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
