@@ -53,25 +53,6 @@ class Usuario{
         return $u;
     }
 
-    public function delete():bool{
-        $conexao = new MySQL();
-        $sql = "DELETE FROM usuarios WHERE idUsuario = {$this->idUsuario}";
-        return $conexao->executa($sql);
-    }
-
-    public static function findall():array{
-        $conexao = new MySQL();
-        $sql = "SELECT * FROM usuarios";
-        $resultados = $conexao->consulta($sql);
-        $usuarios = array();
-        foreach($resultados as $resultado){
-            $u = new Usuario($resultado['email'],$resultado['senha']);
-            $u->setIdUsuario($resultado['idUsuario']);
-            $usuarios[] = $u;
-        }
-        return $usuarios;
-    }
-
     public function authenticate():bool{
         $conexao = new MySQL();
         $sql = "SELECT idUsuario,senha FROM usuarios WHERE email = '{$this->email}'";
